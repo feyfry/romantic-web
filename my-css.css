@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@1,300&family=Neucha&display=swap");
+
+body {
+  font-family: "Neucha", cursive;
+  background: rgb(83, 164, 220);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(83, 164, 220, 1) 0%,
+    rgba(164, 53, 205, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(83, 164, 220, 1) 0%,
+    rgba(164, 53, 205, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(83, 164, 220, 1) 0%,
+    rgba(164, 53, 205, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53a4dc",endColorstr="#a435cd",GradientType=1);
+}
+
+.nav-link:hover {
+  background-color: #1a1a1a;
+  color: palevioletred;
+  transition: 1s;
+}
+
+.page-1,
+.page-2,
+.page-3,
+.page-4,
+.page-5 {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #1a1a1a; */
+}
+
+.nav-link {
+  color: white;
+}
+
+.futer {
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.bif {
+  color: palevioletred;
+}
+
+.txt {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.txt:hover {
+  color: mediumspringgreen;
+}

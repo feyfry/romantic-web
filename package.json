@@ -1,0 +1,11 @@
+{
+  "name": "romantic-pages-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "5.2.0",
+    "bootstrap-icons": "^1.9.1"
+  }
+}
