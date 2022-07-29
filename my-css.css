@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@1,300&family=Neucha&display=swap");
 
+html,
 body {
   font-family: "Neucha", cursive;
   background: rgb(83, 164, 220);
@@ -19,6 +20,7 @@ body {
     rgba(164, 53, 205, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#53a4dc",endColorstr="#a435cd",GradientType=1);
+  overflow-x: hidden;
 }
 
 .nav-link:hover {
@@ -27,6 +29,7 @@ body {
   transition: 1s;
 }
 
+.landing-page,
 .page-1,
 .page-2,
 .page-3,
@@ -37,6 +40,46 @@ body {
   display: flex;
   flex-direction: column;
   /* background-color: #1a1a1a; */
+}
+
+#home .landing-page > ul {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+#home .landing-page > ul > li > a {
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+#home .landing-page > ul > li > a:hover {
+  color: #1a1a1a;
+  transition: 0.5s;
+}
+
+#home .btn {
+  background-color: #1a1a1a;
+  border-radius: 50px;
+  border: none;
+  font-size: 17px;
+  height: 50px;
+  width: 150px;
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#home .btn:hover {
+  background-color: #2e2e2e;
+  border: none;
+  transition: 0.5s;
 }
 
 .nav-link {

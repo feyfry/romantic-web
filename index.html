@@ -31,18 +31,18 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
 
+    <!-- CSS AOS -->
+    <link href="components/css/aos.css" rel="stylesheet">
+
     <title>Romantic Website</title>
   </head>
   <body>
-    <audio hidden autoplay loop>
-      <source src="assets/audio/first-23283702.mp3" type="audio/mp3" />
-    </audio>
     <!-- Navbar -->
     <nav
-      class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top p-4 shadow"
+      class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top p-3"
     >
       <div class="container">
-        <a class="navbar-brand fs-4" href="#one">./Faiz-desu</a>
+        <a class="navbar-brand fs-4" href="#home">./Faiz-desu</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -83,16 +83,60 @@
     <!-- End of Navbar -->
 
     <!-- Content -->
+    <section id="home">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col">
+            <div class="landing-page" data-aos="zoom-in" data-aos-duration="1000">
+              <h1>What's up homie!</h1>
+              <span>You can find me on:</span>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/faiz.mickala666" target="_blank"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/faizprtsc" target="_blank"><i class="bi bi-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-instagram" target="_blank"></i></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-twitter" target="_blank"></i></a>
+                </li>
+              </ul>
+              <div class="row musik">
+                <div class="col">
+                  <audio controls>
+                    <source src="assets/audio/first-23283702.mp3" type="audio/mp3" />
+                  </audio>
+                </div>
+              <div class="row mt-2">
+                <div class="col">
+                  <a href="https://github.com/faizprtsc/romantic-web" target="_blank">
+                    <button type="button" class="btn">
+                      <i class="bi bi-file-earmark-code"></i>
+                      Source Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="one">
       <div class="container">
         <div class="row fs-4 text-center text-white">
           <div class="col">
-            <div class="page-1">
+            <div class="page-1" data-aos="fade-down" data-aos-duration="1500">
               <h5 class="display-6">
                 <i class="bi bi-hearts"></i>
                 I Love You
               </h5>
-              <p data-aos="fade-right">"You are beautiful inside and out."</p>
+              <p>"You are beautiful inside and out."</p>
             </div>
           </div>
         </div>
@@ -103,7 +147,7 @@
       <div class="container">
         <div class="row fs-4 text-center text-white">
           <div class="col">
-            <div class="page-2">
+            <div class="page-2" data-aos="flip-left" data-aos-duration="1500">
               <h5 class="display-6">
                 <i class="bi bi-calendar-heart"></i>
                 23-07-2022
@@ -119,7 +163,7 @@
       <div class="container">
         <div class="row fs-4 text-center text-white">
           <div class="col">
-            <div class="page-3">
+            <div class="page-3" data-aos="zoom-in" data-aos-duration="1500">
               <h5 class="display-6">
                 <i class="bi bi-person-hearts"></i>
                 I Miss You
@@ -135,7 +179,7 @@
       <div class="container">
         <div class="row fs-4 text-center text-white">
           <div class="col">
-            <div class="page-4">
+            <div class="page-4" data-aos="fade-right" data-aos-duration="1500">
               <h5 class="display-6">
                 <i class="bi bi-gift-fill"></i>
                 Happy Birthday! @GF/BF
@@ -154,7 +198,7 @@
       <div class="container">
         <div class="row fs-4 text-center text-white">
           <div class="col">
-            <div class="page-5">
+            <div class="page-5" data-aos="fade-left" data-aos-duration="1500">
               <h5 class="display-6">
                 <i class="bi bi-people-fill"></i>
                 I'm With You
@@ -183,6 +227,12 @@
         </p>
       </div>
     </footer>
+
+    <!-- JS AOS -->
+    <script src="components/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Bootstrap JS -->
     <script src="components/js/bootstrap.bundle.min.js"></script>
